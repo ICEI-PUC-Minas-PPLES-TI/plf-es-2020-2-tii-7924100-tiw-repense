@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  margin-right: 5%;
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron {
+  background: #C4A1F3
+}
+.jumbotron h1 {
+  color: white;
+  font-weight: 700;
+}
+.jumbotron p {
+  color: white;
+}
+
+.intro-start-btn {
+  color: white;
+  background: #47525E
+}
+
+.logo {
+  width: 18%;
+}
+
+#noticias .container-title {
+  color: #976DD0
+}
+

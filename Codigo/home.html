@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>(Re)pense</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body onload="incrementVisitCount()">
+  <nav class="navbar">
+    <img class="img-fluid logo"  src="./logo.png" />
+  </nav>
+
+  <div style="height: 90vh;" class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <p id="welcome">Aproveite o seu primeiro acesso!</p>
+      <p style="margin-top: 25vh" class="lead">Quando a vida está difícil a gente fica meio perdido, né?</p>
+      <h1 class="display-4">Repense, rebusque, reencontre</h1>
+      <a style="margin-top: 10vh;" role="button" href="#noticias" class="btn intro-start-btn">Começar</a>
+    </div>
+  </div>
+
+  <div class="container mt-4" style="height: 100vh;" id="noticias">
+    <h1 class="container-title">Concientize-se!</h1>
+    <p class="lead">Algumas notícias e dados sobre saúde mental: stress, ansiedade, depressão e suicídio</p>
+    <div class="row mb-4">
+      <div class="col">
+        <div class="card">
+          <img class="card-img-top" src="https://f.i.uol.com.br/fotografia/2018/07/31/15330807585b60f4b6016d6_1533080758_4x3_rt.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Com 4 casos de suicídio em 2 meses, USP cria escritório de saúde mental</h5>
+            <p class="card-text">A iniciativa, até aqui restrita somente aos campus da Faculdade de Medicina, Odontologia e o Instituto de Ciências Matemáticas e de Computação, deve afetar todas as unidades da USP, como a Faculdade de Filosofia, Letras e Ciências Humanas.</p>
+            <a href="https://www.hypeness.com.br/2018/08/com-4-casos-de-suicidio-em-2-meses-usp-cria-escritorio-de-saude-mental" class="card-link" target="_blank">Link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+
+          <img class="card-img-top" src="https://s2.glbimg.com/eJ6rslyrvbMPEok_1q1ytIjQuzw=/0x0:2000x1335/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/E/C/3X1yw7SHKEBFpdizM6Aw/044-b81587024-b.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pouco falada na universidade, prevenção ao suicídio vira tema de dois cursos de pós-graduação no Brasil</h5>
+            <p class="card-text">Cursos de especialização são voltados a graduados da área da saúde e outros profissionais que atuam na atenção a pessoas enlutadas, com ansiedade, depressão ou tendências autodestrutivas. </p> <a href="https://g1.globo.com/ciencia-e-saude/noticia/2019/10/20/pouco-falada-na-universidade-prevencao-ao-suicidio-vira-tema-de-dois-cursos-de-pos-graduacao-no-brasil.ghtml" class="card-link" target="_blank">Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Compreensão, diálogo e amparo: suicídio de jovens durante quarentena da Covid-19 preocupa profissionais da saúde mental no Centro-Oeste</h5>
+            <p class="card-text">A saúde mental, que já era um dos principais temas debatidos na sociedade moderna, se tornou um tópico ainda mais destacado em meio à pandemia do novo coronavírus. Problemas decorrentes da Covid-19, como mortes causadas pela doença, afastamento social, desemprego e incertezas, potencializam sensações de medo, pânico, tristeza, insegurança e ansiedade.</p>
+            <a href="https://g1.globo.com/mg/centro-oeste/noticia/2020/07/19/compreensao-dialogo-e-amparo-suicidio-de-jovens-durante-quarentena-da-covid-19-preocupa-profissionais-da-saude-mental-no-centro-oeste.ghtml" class="card-link" target="_blank">Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<script>
+ if (!showWelcomeMessage())
+   document.getElementById("welcome").style.visibility="hidden";
+
+ function showWelcomeMessage() {
+   return visitCount() === 0;
+ }
+
+ function visitCount() {
+   return parseInt(localStorage.getItem('visitCount') || 0, 10);
+ }
+
+ function incrementVisitCount() {
+   var currentVisitCount = visitCount();
+   localStorage.setItem('visitCount', currentVisitCount + 1);
+ }
+</script>
+
+</html>
