@@ -1,205 +1,204 @@
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>(Re)pense</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css" />
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>(Re)pense</title>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css" />
-</head>
+    <body onload="incrementVisitCount()">
+        <nav class="navbar">
+            <img class="img-fluid logo"  src="./logo.png" />
+        </nav>
 
-<body onload="incrementVisitCount()">
-  <nav class="navbar">
-    <img class="img-fluid logo"  src="./logo.png" />
-  </nav>
-
-  <div style="height: 90vh;" class="jumbotron jumbotron-fluid">
-    <div class="container text-center">
-      <p id="welcome">Aproveite o seu primeiro acesso!</p>
-      <p style="margin-top: 25vh" class="lead">Quando a vida está difícil a gente fica meio perdido, né?</p>
-      <h1 class="display-4">Repense, rebusque, reencontre</h1>
-      <a style="margin-top: 10vh;" role="button" href="#noticias" class="btn intro-start-btn">Começar</a>
-    </div>
-  </div>
-
-  <div class="container mt-4" style="height: 100vh;" id="noticias">
-    <h1 class="container-title">Concientize-se!</h1>
-    <p class="lead">Algumas notícias e dados sobre saúde mental: stress, ansiedade, depressão e suicídio</p>
-    <div class="row mb-4">
-      <div class="col">
-        <div class="card">
-          <img class="card-img-top" src="https://f.i.uol.com.br/fotografia/2018/07/31/15330807585b60f4b6016d6_1533080758_4x3_rt.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Com 4 casos de suicídio em 2 meses, USP cria escritório de saúde mental</h5>
-            <p class="card-text">A iniciativa, até aqui restrita somente aos campus da Faculdade de Medicina, Odontologia e o Instituto de Ciências Matemáticas e de Computação, deve afetar todas as unidades da USP, como a Faculdade de Filosofia, Letras e Ciências Humanas.</p>
-            <a href="https://www.hypeness.com.br/2018/08/com-4-casos-de-suicidio-em-2-meses-usp-cria-escritorio-de-saude-mental" class="card-link" target="_blank">Link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-
-          <img class="card-img-top" src="https://s2.glbimg.com/eJ6rslyrvbMPEok_1q1ytIjQuzw=/0x0:2000x1335/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/E/C/3X1yw7SHKEBFpdizM6Aw/044-b81587024-b.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Pouco falada na universidade, prevenção ao suicídio vira tema de dois cursos de pós-graduação no Brasil</h5>
-            <p class="card-text">Cursos de especialização são voltados a graduados da área da saúde e outros profissionais que atuam na atenção a pessoas enlutadas, com ansiedade, depressão ou tendências autodestrutivas. </p> <a href="https://g1.globo.com/ciencia-e-saude/noticia/2019/10/20/pouco-falada-na-universidade-prevencao-ao-suicidio-vira-tema-de-dois-cursos-de-pos-graduacao-no-brasil.ghtml" class="card-link" target="_blank">Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Compreensão, diálogo e amparo: suicídio de jovens durante quarentena da Covid-19 preocupa profissionais da saúde mental no Centro-Oeste</h5>
-            <p class="card-text">A saúde mental, que já era um dos principais temas debatidos na sociedade moderna, se tornou um tópico ainda mais destacado em meio à pandemia do novo coronavírus. Problemas decorrentes da Covid-19, como mortes causadas pela doença, afastamento social, desemprego e incertezas, potencializam sensações de medo, pânico, tristeza, insegurança e ansiedade.</p>
-            <a href="https://g1.globo.com/mg/centro-oeste/noticia/2020/07/19/compreensao-dialogo-e-amparo-suicidio-de-jovens-durante-quarentena-da-covid-19-preocupa-profissionais-da-saude-mental-no-centro-oeste.ghtml" class="card-link" target="_blank">Link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container mt-4" style="height: 100vh;" id="noticias">
-    <h1 class="container-title">Procurar ajuda profissional</h1>
-    <div class="row mb-4">
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Diéferson Artur Brandão</h5>
-            <img src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/0c5426/0c5426e5871c15f1414002e3145c625d_large.jpg" class="card-img-top" alt="Dieferson Artur Brandao">
-            <p class="card-text">
-              Experiência em:
-              <ul>
-                <li>Stress</li>
-                <li>Depressão</li>
-                <li>Transtornos de ansiedade</li>
-                <li>TDAH</li>
-                <li>Terapia Cognitivo-Comportamental</li>
-              </ul>
-            </p>
-            <p class="card-text">
-              Formação
-              <ul>
-                <li>Psicólogo, Centro Universitário Newton Paiva, 2011</li>
-                <li>Especialização em Psicologia: Terapia Cognitivo-Comportamental, Pontifícia Universidade Católica de Minas Gerais (PUC Minas), 2017</li>
-              </ul>
-            </p>
-            <a target="_blank" href="https://www.doctoralia.com.br/dieferson-artur-brandao/psicologo/belo-horizonte?address-id=425959#address-id=%5B425959%2C849435%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Victor Polignano Godoy</h5>
-            <img target="_blank" src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/36ee8d/36ee8d59737fc25759960f73779eef41_large.jpg" class="card-img-top" alt="Victor Polignano Godoy">
-            <p class="card-text">
-              Experiência em:
-              <ul>
-                <li>Terapia Cognitivo-Comportamental</li>
-                <li>Avaliação Neuropsicológica</li>
-                <li>Psicoterapia</li>
-              </ul>
-            </p>
-            <p class="card-text">
-              Formação
-              <ul>
-                <li>Graduação em Psicologia - UFMG</li>
-                <li>Especialização em andamento: Terapia Cognitivo-Comportamental (InTCC - Famaqui)</li>
-                <li>Especialização em andamento: Neurociência e Comportamento (PUC - RS)</li>
-                <li>Mestrado em andamento: Medicina Molecular (UFMG)</li>
-                <li>Formação em Terapia de Aceitação e Compromisso (ACT; Contextualmente, BH) </li>
-              </ul>
-            </p>
-            <a target="_blank" href="https://www.doctoralia.com.br/victor-polignano-godoy/psicologo/belo-horizonte?address-id=690147#address-id=%5B690147%2C847795%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Victor Polignano Godoy</h5>
-            <img target="_blank" src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/b46bad/b46bada33b09dd1b69ad979fc7c83e86_large.jpg" class="card-img-top" alt="Lucas Baptista Albertoni">
-            <p class="card-text">
-              Experiência em:
-              <ul>
-                <li>Psicologia Humanista</li>
-                <li>Psicologia da Personalidade</li>
-                <li>Psicoterapia de Casal</li>
-                <li>Psicoterapia Individual</li>
-              </ul>
-            </p>
-            <p class="card-text">
-              Formação
-              <ul>
-                <li>Mestrado em Psicologia, Universidade Federal de Minas Gerais (UFMG), 2016</li>
-                <li>Formação em Focusing, The Focusing Institute (NY-EUA), 2012</li>
-                <li>Formação em Psicologia Clínica, Centro de Psicologia Humanista (CPHMINAS), 2009</li>
-                <li>Graduação em Psicologia / ênfase em Psicologia Clínica (Puc Minas), 2007</li>
-              </ul>
-            </p>
-            <a target="_blank" href="https://www.doctoralia.com.br/lucas-baptista-albertoni/psicologo/belo-horizonte?address-id=434752#address-id=%5B434752%2C847383%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container mt-4" id="mapas">
-      <title>Mapa</title>
-      <h1>Consultórios psicológicos no centro de Belo horizonte</h1>
-      <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3rkmTJsSuhPoPBaZsxsqBMMjM6Ds0B5Y&callback=initMap"
-        type="text/javascript"></script>
-        <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17842.602813495236!2d-43.94719489950721!3d-19.92671456252312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sconsul%C3%B3torio%20psicologia%20bh!5e0!3m2!1spt-BR!2sbr!4v1604157421488!5m2!1spt-BR!2sbr" frameborder="0"
-            style="border:0" allowfullscreen></iframe>
-        </div>
-        <div class="card" style="width: 18rem;">
-         <div>
-          <div class="card-body">
-            <h5 class="card-title">Comentário</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Anônimo</h6>
-            <p class="card-text">Foram alguns meses de tratamento, não cheguei a terminar, mas vejo que me ajudou muito, pretendo voltar.</p>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Comentário</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Anônimo</h6>
-              <p class="card-text">Um amigo da escola me convenceu a muito custo a procurar ajuda, eu acabei cedendo e ate que me fez bem.</p>
+        <div style="height: 90vh;" class="jumbotron jumbotron-fluid">
+            <div class="container text-center">
+                <p id="welcome">Aproveite o seu primeiro acesso!</p>
+                <p style="margin-top: 25vh" class="lead">Quando a vida está difícil a gente fica meio perdido, né?</p>
+                <h1 class="display-4">Repense, rebusque, reencontre</h1>
+                <a style="margin-top: 10vh;" role="button" href="#noticias" class="btn intro-start-btn">Começar</a>
             </div>
-          </div>
         </div>
-      </div>
-      </div>
 
-</div>
+        <div class="container mt-4" id="noticias">
+            <h1 class="container-title">Concientize-se!</h1>
+            <p class="lead">Algumas notícias e dados sobre saúde mental: stress, ansiedade, depressão e suicídio</p>
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="https://f.i.uol.com.br/fotografia/2018/07/31/15330807585b60f4b6016d6_1533080758_4x3_rt.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Com 4 casos de suicídio em 2 meses, USP cria escritório de saúde mental</h5>
+                            <p class="card-text">A iniciativa, até aqui restrita somente aos campus da Faculdade de Medicina, Odontologia e o Instituto de Ciências Matemáticas e de Computação, deve afetar todas as unidades da USP, como a Faculdade de Filosofia, Letras e Ciências Humanas.</p>
+                            <a href="https://www.hypeness.com.br/2018/08/com-4-casos-de-suicidio-em-2-meses-usp-cria-escritorio-de-saude-mental" class="card-link" target="_blank">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <img class="card-img-top" src="https://s2.glbimg.com/eJ6rslyrvbMPEok_1q1ytIjQuzw=/0x0:2000x1335/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/E/C/3X1yw7SHKEBFpdizM6Aw/044-b81587024-b.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pouco falada na universidade, prevenção ao suicídio vira tema de dois cursos de pós-graduação no Brasil</h5>
+                            <p class="card-text">Cursos de especialização são voltados a graduados da área da saúde e outros profissionais que atuam na atenção a pessoas enlutadas, com ansiedade, depressão ou tendências autodestrutivas. </p> <a href="https://g1.globo.com/ciencia-e-saude/noticia/2019/10/20/pouco-falada-na-universidade-prevencao-ao-suicidio-vira-tema-de-dois-cursos-de-pos-graduacao-no-brasil.ghtml" class="card-link" target="_blank">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Compreensão, diálogo e amparo: suicídio de jovens durante quarentena da Covid-19 preocupa profissionais da saúde mental no Centro-Oeste</h5>
+                            <p class="card-text">A saúde mental, que já era um dos principais temas debatidos na sociedade moderna, se tornou um tópico ainda mais destacado em meio à pandemia do novo coronavírus. Problemas decorrentes da Covid-19, como mortes causadas pela doença, afastamento social, desemprego e incertezas, potencializam sensações de medo, pânico, tristeza, insegurança e ansiedade.</p>
+                            <a href="https://g1.globo.com/mg/centro-oeste/noticia/2020/07/19/compreensao-dialogo-e-amparo-suicidio-de-jovens-durante-quarentena-da-covid-19-preocupa-profissionais-da-saude-mental-no-centro-oeste.ghtml" class="card-link" target="_blank">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+        <div class="container mt-4" id="noticias">
+            <h1 class="container-title">Procurar ajuda profissional</h1>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Diéferson Artur Brandão</h5>
+                            <img src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/0c5426/0c5426e5871c15f1414002e3145c625d_large.jpg" class="card-img-top" alt="Dieferson Artur Brandao">
+                            <p class="card-text">
+                                Experiência em:
+                                <ul>
+                                    <li>Stress</li>
+                                    <li>Depressão</li>
+                                    <li>Transtornos de ansiedade</li>
+                                    <li>TDAH</li>
+                                    <li>Terapia Cognitivo-Comportamental</li>
+                                </ul>
+                            </p>
+                            <p class="card-text">
+                                Formação
+                                <ul>
+                                    <li>Psicólogo, Centro Universitário Newton Paiva, 2011</li>
+                                    <li>Especialização em Psicologia: Terapia Cognitivo-Comportamental, Pontifícia Universidade Católica de Minas Gerais (PUC Minas), 2017</li>
+                                </ul>
+                            </p>
+                            <a target="_blank" href="https://www.doctoralia.com.br/dieferson-artur-brandao/psicologo/belo-horizonte?address-id=425959#address-id=%5B425959%2C849435%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Victor Polignano Godoy</h5>
+                            <img target="_blank" src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/36ee8d/36ee8d59737fc25759960f73779eef41_large.jpg" class="card-img-top" alt="Victor Polignano Godoy">
+                            <p class="card-text">
+                                Experiência em:
+                                <ul>
+                                    <li>Terapia Cognitivo-Comportamental</li>
+                                    <li>Avaliação Neuropsicológica</li>
+                                    <li>Psicoterapia</li>
+                                </ul>
+                            </p>
+                            <p class="card-text">
+                                Formação
+                                <ul>
+                                    <li>Graduação em Psicologia - UFMG</li>
+                                    <li>Especialização em andamento: Terapia Cognitivo-Comportamental (InTCC - Famaqui)</li>
+                                    <li>Especialização em andamento: Neurociência e Comportamento (PUC - RS)</li>
+                                    <li>Mestrado em andamento: Medicina Molecular (UFMG)</li>
+                                    <li>Formação em Terapia de Aceitação e Compromisso (ACT; Contextualmente, BH) </li>
+                                </ul>
+                            </p>
+                            <a target="_blank" href="https://www.doctoralia.com.br/victor-polignano-godoy/psicologo/belo-horizonte?address-id=690147#address-id=%5B690147%2C847795%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Victor Polignano Godoy</h5>
+                            <img target="_blank" src="https://s3-sa-east-1.amazonaws.com/doctoralia.com.br/doctor/b46bad/b46bada33b09dd1b69ad979fc7c83e86_large.jpg" class="card-img-top" alt="Lucas Baptista Albertoni">
+                            <p class="card-text">
+                                Experiência em:
+                                <ul>
+                                    <li>Psicologia Humanista</li>
+                                    <li>Psicologia da Personalidade</li>
+                                    <li>Psicoterapia de Casal</li>
+                                    <li>Psicoterapia Individual</li>
+                                </ul>
+                            </p>
+                            <p class="card-text">
+                                Formação
+                                <ul>
+                                    <li>Mestrado em Psicologia, Universidade Federal de Minas Gerais (UFMG), 2016</li>
+                                    <li>Formação em Focusing, The Focusing Institute (NY-EUA), 2012</li>
+                                    <li>Formação em Psicologia Clínica, Centro de Psicologia Humanista (CPHMINAS), 2009</li>
+                                    <li>Graduação em Psicologia / ênfase em Psicologia Clínica (Puc Minas), 2007</li>
+                                </ul>
+                            </p>
+                            <a target="_blank" href="https://www.doctoralia.com.br/lucas-baptista-albertoni/psicologo/belo-horizonte?address-id=434752#address-id=%5B434752%2C847383%5D&filters%5Bspecializations%5D%5B%5D=76" class="btn btn-primary">Perfil no Doctoralia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<script>
- if (!showWelcomeMessage())
-   document.getElementById("welcome").style.visibility="hidden";
+        <div class="container mt-4" id="mapas">
+            <title>Mapa</title>
+            <h1>Consultórios psicológicos no centro de Belo horizonte</h1>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3rkmTJsSuhPoPBaZsxsqBMMjM6Ds0B5Y&callback=initMap"
+                    type="text/javascript"></script>
+            <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17842.602813495236!2d-43.94719489950721!3d-19.92671456252312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sconsul%C3%B3torio%20psicologia%20bh!5e0!3m2!1spt-BR!2sbr!4v1604157421488!5m2!1spt-BR!2sbr" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+            </div>
+                <div id="row">
+                    <div id="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Comentário</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Anônimo</h6>
+                                <p class="card-text">Foram alguns meses de tratamento, não cheguei a terminar, mas vejo que me ajudou muito, pretendo voltar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="col-sm">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Comentário</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Anônimo</h6>
+                                <p class="card-text">Um amigo da escola me convenceu a muito custo a procurar ajuda, eu acabei cedendo e ate que me fez bem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
- function showWelcomeMessage() {
-   return visitCount() === 0;
- }
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 
- function visitCount() {
-   return parseInt(localStorage.getItem('visitCount') || 0, 10);
- }
+    <script>
+     if (!showWelcomeMessage())
+         document.getElementById("welcome").style.visibility="hidden";
 
- function incrementVisitCount() {
-   var currentVisitCount = visitCount();
-   localStorage.setItem('visitCount', currentVisitCount + 1);
- }
-</script>
+     function showWelcomeMessage() {
+         return visitCount() === 0;
+     }
+
+     function visitCount() {
+         return parseInt(localStorage.getItem('visitCount') || 0, 10);
+     }
+
+     function incrementVisitCount() {
+         var currentVisitCount = visitCount();
+         localStorage.setItem('visitCount', currentVisitCount + 1);
+     }
+    </script>
 
 </html>
