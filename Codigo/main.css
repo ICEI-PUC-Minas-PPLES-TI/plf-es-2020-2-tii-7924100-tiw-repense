@@ -49,3 +49,15 @@ height:100%;
 width:100%;
 position:absolute;
 }
+
+.btn{
+  transition-duration: 0.4s;
+  color : #976DD0;
+  border-color: #976DD0;
+}
+
+.btn:hover {
+  background-color: #976DD0; 
+  border-color: white;
+  color: white;
+}
